@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{1DEDC66C-4A55-4658-B816-EF9604AC21F8}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C6FA9394-64EB-4D3E-ACD6-E4EF86E03FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmRepro", "src\CpmRepro\CpmRepro.csproj", "{055728D7-1CA6-48F2-B158-E224F3F5430E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{055728D7-1CA6-48F2-B158-E224F3F5430E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055728D7-1CA6-48F2-B158-E224F3F5430E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055728D7-1CA6-48F2-B158-E224F3F5430E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055728D7-1CA6-48F2-B158-E224F3F5430E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6FA9394-64EB-4D3E-ACD6-E4EF86E03FC0} = {1DEDC66C-4A55-4658-B816-EF9604AC21F8}
+		{055728D7-1CA6-48F2-B158-E224F3F5430E} = {C6FA9394-64EB-4D3E-ACD6-E4EF86E03FC0}
+	EndGlobalSection
+EndGlobal
